@@ -8,6 +8,7 @@ public class CGame : MonoBehaviour {
 	public GameObject textScore;
 	public GameObject spawnerEnemy;
 	public GameObject textClear;
+	public GameObject server;
 
 	public Texture2D texPowerBarFull;
 	public Texture2D texPowerBarEmpty;
@@ -41,6 +42,7 @@ public class CGame : MonoBehaviour {
 		textScore		= GameObject.Find("textScore");
 		spawnerEnemy	= GameObject.Find("spawnerEnemy");
 		textClear		= GameObject.Find("textClear");
+		server			= GameObject.Find("ServerScripts");
 	}
 
 	// Use this for initialization
@@ -108,6 +110,12 @@ public class CGame : MonoBehaviour {
 		m_isSpawnBoss	= false;
 
 		textClear.SetActive(false);
+
+
+		//DUMMY
+		Vector3 _pos	= new Vector3();
+		Vector3 _rot	= new Vector3();
+		server.GetComponent<CServer>().Add(_pos,_rot);//DUMMY
 	}
 
 	public void AddScore (int _score) {
