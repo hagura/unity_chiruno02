@@ -49,6 +49,7 @@
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
      <None Include="Assets\Panzer_II_Ausf_F\readme.txt" />
+     <None Include="Assets\Pixel Map Terrain\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

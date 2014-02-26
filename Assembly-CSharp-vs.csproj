@@ -54,12 +54,14 @@
      <Compile Include="Assets\Chiruno02\Scripts\behavior\behaviorPlayer.cs" />
      <Compile Include="Assets\Chiruno02\Scripts\behavior\behaviorRubble.cs" />
      <Compile Include="Assets\Chiruno02\Scripts\lib\MiniJSON.cs" />
+     <Compile Include="Assets\Chiruno02\Scripts\miniCamera.cs" />
      <Compile Include="Assets\Chiruno02\Scripts\spawnEnemy.cs" />
      <Compile Include="Assets\Chiruno02\Scripts\spawnPlayer.cs" />
      <Compile Include="Assets\Chiruno02\Scripts\spawnRubble.cs" />
-     <Compile Include="Assets\miniCamera.cs" />
+     <Compile Include="Assets\Pixel Map Terrain\Scripts\PixelMapTerrain.cs" />
      <None Include="Assets\Panzer_II_Ausf_F\Shaders\Panzer Tracks.shader" />
      <None Include="Assets\Panzer_II_Ausf_F\readme.txt" />
+     <None Include="Assets\Pixel Map Terrain\README.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

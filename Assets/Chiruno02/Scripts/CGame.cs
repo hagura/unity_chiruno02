@@ -111,11 +111,12 @@ public class CGame : MonoBehaviour {
 
 		textClear.SetActive(false);
 
-
+/*
 		//DUMMY
 		Vector3 _pos	= new Vector3();
 		Vector3 _rot	= new Vector3();
 		server.GetComponent<CServer>().Add(_pos,_rot);//DUMMY
+		*/
 	}
 
 	public void AddScore (int _score) {
